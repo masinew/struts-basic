@@ -1,11 +1,10 @@
-package model;
+package helloworld.model;
  
 public class MessageStore {
      
     private String message;
      
     public MessageStore() {
-         
         setMessage("Hello Struts User");
     }
  
@@ -18,5 +17,8 @@ public class MessageStore {
  
         this.message = message;
     }
- 
+    
+    public String toString() {
+    	return message + " (From toString method)";
+    }
 }
