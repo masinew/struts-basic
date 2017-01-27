@@ -46,4 +46,8 @@ public class HelloWorldAction extends ActionSupport {
     public void setUserName(String userName) {
     	this.userName = userName;
     }
+    
+    public void validate() {
+    	System.out.println(1);
+    };
 }

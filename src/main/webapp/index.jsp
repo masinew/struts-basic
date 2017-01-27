@@ -34,6 +34,7 @@
 	<hr />
 	
 	<p>Register Page</p>
-	<p><a href="register.jsp">Please register</a> for our prize drawing.</p>
+	<s:url action="registerInput" var="registerInputLink" />
+	<p><a href="${registerInputLink}">Please register</a> for our prize drawing.</p>
 </body>
 </html>
