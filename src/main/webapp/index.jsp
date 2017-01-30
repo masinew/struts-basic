@@ -5,6 +5,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Basic Struts 2 Application - Welcome</title>
+	<s:head/>
 </head>
 <body>
 	<h1>Welcome To Struts 2!</h1>
@@ -36,5 +37,15 @@
 	<p>Register Page</p>
 	<s:url action="registerInput" var="registerInputLink" />
 	<p><a href="${registerInputLink}">Please register</a> for our prize drawing.</p>
+	<hr />
+	
+	<h2>Debugging</h2>
+	<s:url action="index" namespace="config-browser" var="debugLink" />
+	<a href="${debugLink}">Debug Page</a>
+	<hr />
+	
+	<h2>Edit</h2>
+	<s:url action="edit" var="editLink" />
+	<a href="${editLink}">Edit Page</a>
 </body>
 </html>

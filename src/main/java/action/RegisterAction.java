@@ -1,8 +1,8 @@
-package register.action;
+package action;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-import register.model.Person;
+import model.Person;
 
 public class RegisterAction extends ActionSupport {
 	private static final long serialVersionUID = 1L;

@@ -1,4 +1,4 @@
-package helloworld.model;
+package model;
  
 public class MessageStore {
      

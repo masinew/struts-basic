@@ -1,8 +1,8 @@
-package helloworld.action;
+package action;
  
 import com.opensymphony.xwork2.ActionSupport;
 
-import helloworld.model.MessageStore;
+import model.MessageStore;
  
 public class HelloWorldAction extends ActionSupport {
     private static final long serialVersionUID = 1L;

@@ -16,5 +16,12 @@
 	<p><s:text name="thankyou" /></p>
 	
 	<h1><s:text name="greeting" /></h1>
+	
+	<hr />
+	
+	<h2>Edit</h2>
+	<s:url action="edit" var="editLink" />
+	<a href="${editLink}">Edit Page</a>
+	
 </body>
 </html>

@@ -1,11 +1,11 @@
-package register.model;
+package model;
 
 public class Person
 {
     private String firstName;
     private String lastName;
     private String email;
-    private int age;
+    int age;
  
     public String getFirstName()
     {
