@@ -33,8 +33,7 @@ public class EditAction extends ActionSupport {
 		
 		return SUCCESS;
 		
-	}
-	
+	}	
 	
 	public String input() throws Exception {
 		
